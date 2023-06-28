@@ -255,6 +255,7 @@ menu li {
 
 #recipe-content p {
     margin: 10px 15px 0px 15px;
+    
 }
 
 #details h2,
@@ -664,7 +665,7 @@ footer img {
         left: 15%;
     }
 
-    /*Section for search bar*/
+    
     .search-bar {
         display: flex;
         position: fixed;
@@ -691,7 +692,7 @@ footer img {
     }
 
 
-    /*Section for Social Media links*/
+    
 
     #social nav {
         float: right;
@@ -740,7 +741,7 @@ footer img {
 
 }
 
-/*Media queries for large screen*/
+/*large screen*/
 @media screen and (min-width: 1280px) {
     body {
         width: 1280px;
@@ -755,8 +756,7 @@ footer img {
         text-align: center;
     }
 
-    /* icons: save, share, print and jump */
-
+   
     menu {
         display: flex;
         flex-direction: column;
@@ -808,7 +808,7 @@ footer img {
         margin-left: 240px;
     }
 
-    /* recipe*/
+    
     .street-tacos {
         width: 40%;
         margin-left: 7px;
@@ -841,14 +841,14 @@ footer img {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
         grid-template-areas:
-            'deets deets deets deets deets'
+            'a a a a a'
             'dt dt dt dt dt'
             'dd dd dd dd dd'
         ;
     }
 
     #details h2 {
-        grid-area: deets;
+        grid-area: a;
     }
 
     dt {
@@ -864,7 +864,7 @@ footer img {
         color: #7ABFBF;
     }
 
-    /*side dishes*/
+ 
     aside {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -922,11 +922,6 @@ footer img {
     }
 
 
-    .style:hover {
-        background-color: #FFAE42;
-    }
-
-    /* main navigation*/
     #main-nav {
         width: 1280px;
         height: 162px;
@@ -981,7 +976,7 @@ footer img {
         right: 27px;
     }
 
-    /*search bar*/
+   
     .search-bar {
         position: absolute;
         top: 175px;
@@ -994,7 +989,7 @@ footer img {
     }
 
 
-    /*Social Media links*/
+
 
     #social nav {
         float: right;
@@ -1021,7 +1016,7 @@ footer img {
         right: 110px;
     }
 
-    /*Section for footer*/
+
     footer {
         font-size: 20px;
     }
